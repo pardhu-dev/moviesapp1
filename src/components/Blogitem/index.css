@@ -1,0 +1,15 @@
+.item-image {
+  max-width: 600px;
+  object-fit: contain;
+  max-height: 220px;
+  padding: 5px;
+  transition: transform 450ms;
+}
+.item-image:hover {
+  transform: scale(1.08);
+}
+
+.item-container {
+  display: flex;
+  flex-direction: row;
+}
