@@ -30,7 +30,7 @@
   align-items: center;
   justify-content: flex-start;
   flex-direction: row;
-  margin-left: 150px;
+  margin-left: 50px;
 }
 .blog-title {
   font-family: Roboto;
@@ -59,9 +59,28 @@
 }
 .img-logo2 {
   margin: 15px;
-  margin-right: 150px;
 }
 .img-cont {
   display: flex;
   justify-content: space-around;
+}
+
+.logout-button {
+  height: 40px;
+  width: 100px;
+  background-color: #fb923c;
+
+  border-radius: 10px;
+  border-width: 0px;
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.but-cont {
+  display: flex;
+  align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
 }

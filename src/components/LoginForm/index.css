@@ -1,0 +1,98 @@
+.login-form-container {
+  background-image: url('https://res.cloudinary.com/pardhu/image/upload/v1624032380/netfilx_1_1_siiq1s.png');
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: auto;
+
+  margin: auto;
+}
+.logo-img {
+  height: 70px;
+  width: 120px;
+  margin-left: 70px;
+  margin-top: 40px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 350px;
+  background-color: #0c0b10;
+  opacity: 0.8;
+  color: #ffffff;
+}
+
+.input-container {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.card-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.input-label {
+  margin-bottom: 0px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  color: #475569;
+}
+.username-input-field {
+  font-size: 14px;
+  height: 40px;
+  border: 1px solid #d7dfe9;
+  background-color: #e2e8f0;
+  color: #64748b;
+  border-radius: 2px;
+  margin-top: 5px;
+  padding: 8px 16px 8px 16px;
+}
+
+.password-input-field {
+  font-size: 14px;
+  height: 40px;
+  border: 1px solid #d7dfe9;
+  background-color: #e2e8f0;
+  color: #64748b;
+  border-radius: 2px;
+  margin-top: 5px;
+  padding: 8px 16px 8px 16px;
+}
+.login-button {
+  background-color: #e50914;
+  border-radius: 10px;
+  height: 40px;
+  width: 80px;
+  color: #ffffff;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.error-msg {
+  color: #fb923c;
+
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+}
+.head2 {
+  font-size: 30px;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  color: #ffffff;
+  line-height: 40px;
+}

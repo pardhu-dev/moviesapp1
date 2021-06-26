@@ -1,7 +1,6 @@
 .item-image {
-  max-width: 600px;
   object-fit: contain;
-  max-height: 220px;
+
   padding: 5px;
   transition: transform 450ms;
 }

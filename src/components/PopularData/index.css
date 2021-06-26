@@ -1,0 +1,57 @@
+.movie-img-bck-cont {
+  display: flex;
+  flex-direction: column;
+
+  background-color: #141414;
+  opacity: 1;
+}
+.movies-list-heading {
+  color: #ffffff;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 63px;
+  margin-left: 200px;
+}
+
+.movies-list-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 2000px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.footer-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 20px;
+}
+.icon-img {
+  height: 30px;
+  width: 30px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.head {
+  color: #ffffff;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  align: center;
+  margin-right: 200px;
+}
+.head-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

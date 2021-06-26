@@ -1,10 +1,80 @@
 .not-found-container {
+  background-image: url('https://res.cloudinary.com/pardhu/image/upload/v1624629189/snow-removal-machine-working-high-ski-slope-snowstorm_454047-2149_1_bbvdjn.jpg');
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.main-cont {
+  max-height: 100vh;
+  max-width: 100vw;
+}
+.head-cont {
+  background-color: #64748b;
+  display: flex;
+  flex-direction: row;
+
+  align-items: flex-start;
+  opacity: 2;
+}
+.logo-img {
+  margin-bottom: 40px;
+  align-self: flex-start;
+  margin-right: 200px;
+}
+.content-cont {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 70vh;
+  max-height: 700px;
+  max-width: 700px;
+  margin-left: 300px;
 }
-.not-found-img {
-  width: 400px;
+.head1 {
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 96px;
+  line-height: 125px;
+  color: #64748b;
+  color: ;
+  opacity: 0.9;
+}
+.para {
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 31px;
+  text-align: center;
+
+  color: #64748b;
+  color: ;
+  opacity: 0.9;
+}
+
+.para2 {
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 31px;
+  text-align: center;
+
+  color: #ffffff;
+  color: ;
+  opacity: 2;
+}
+
+.but1 {
+  height: 45px;
+  width: 150px;
+  border-radius: 10px;
+  background-color: #64748b;
+  color: white;
+  border-width: 0px;
+  opacity: 0.9;
+  font-size: 20px;
 }

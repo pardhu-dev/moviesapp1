@@ -1,0 +1,11 @@
+.popular-img {
+  height: 200px;
+  width: 100%;
+  border-radius: 20px;
+}
+.product-item-cont {
+  max-height: 150px;
+  max-width: 300px;
+  margin: 10px;
+  margin-bottom: 60px;
+}
